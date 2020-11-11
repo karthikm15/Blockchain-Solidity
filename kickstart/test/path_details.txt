@@ -1,0 +1,12 @@
+Types of Paths and What They Show on Website:
+    1. / (shows list of campaigns)
+    2. /campaigns/new (form to make a campaign)
+    3. /campaigns/0x8147 (campaign details for campaign at address 0x8147)
+    4. /campaigns/0x8147/requests (requests for campaign at address 0x8147)
+    5. /campaigns/0x8147/requests/new (form to create a request for campaign at address 0x8147)
+
+Project Directory:
+    1. .next (where next.js uses its build steps - behind the scenes to control app)
+    2. pages (react components that get turned into a visitable webpage)
+        - show.js (React components - crowdcoin.com/show)
+        - newcampaign.js (React components - crowdcoin.com/newcampaign)
